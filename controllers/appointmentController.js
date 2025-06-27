@@ -1,9 +1,3 @@
-import Appointment from '../models/Appointment.js';
-import Professor from '../models/Professor.js';
-
-export const bookAppointment = async (req, res) => {
-  const studentId = req.user._id;
-  const { professorId, slot } = req.body;
 
   try {
     const prof = await Professor.findById(professorId);

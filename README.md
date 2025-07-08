@@ -31,5 +31,5 @@ bcrypt for password hashing
 
 dotenv for environment variables
 
-Postman for testing
+Postman for tested
 
